@@ -1,10 +1,113 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<title>Esto es el t&iacute;tulo de la p&aacute;gina.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 3px;
+        }
+    </style>
 </head>
 <body>
-Hola mundo!<br>
-<b>Esto es negrita.</b><br>
-<i>Y esto it&aacute;lica.</i><br>
+
+    <header>
+        <h1>Mi Nombre</h1>
+        <p>Desarrollador Web</p>
+    </header>
+
+    <section>
+        <h2>Información Personal</h2>
+        <ul>
+            <li><strong>Nombre:</strong> Mi Nombre</li>
+            <li><strong>Email:</strong> correo@example.com</li>
+            <li><strong>Teléfono:</strong> 123-456-7890</li>
+            <li><strong>Dirección:</strong> Ciudad, País</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li>
+                <strong>Desarrollador Web</strong> - Empresa ABC (Fecha de inicio - Fecha de finalización)
+                <p>Descripción de las responsabilidades y logros en este puesto.</p>
+            </li>
+            <!-- Agrega más experiencias laborales si es necesario -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                <strong>Grado en Ingeniería Informática</strong> - Universidad XYZ (Año de inicio - Año de graduación)
+            </li>
+            <!-- Agrega más detalles educativos si es necesario -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <!-- Agrega más habilidades si es necesario -->
+        </div>
+    </section>
+
+    <script>
+        // Puedes agregar scripts de JavaScript para funcionalidades adicionales si es necesario
+    </script>
+
 </body>
 </html>
