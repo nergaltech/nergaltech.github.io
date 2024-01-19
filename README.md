@@ -13,8 +13,8 @@ Numérica | Regresión logística | Regresión
 # Librerías útiles en  JS
 Librerías que me gustaría explorar y aprender se creara ejemplos como se va aprendiendo.
 - [Danfo.js](https://danfo.jsdata.org/getting-started): Equivalente Pandas manejo de datos
-- Plotly.js: Graficos estadisticos creo que el que usare como estandar
-- Mermaid: graficos de flujo y otros tanbie gans
+- Plotly.js: Gráficos estadísticos creo que el que usare como estándar
+- Mermaid: gráficos de flujo y otros tanbie gans
 - brain.js : Red neuronal me centrare en unos solo
 - MathJax: Latex para formulas en JS
 - PyScript: python en JS y web
