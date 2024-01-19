@@ -1,2 +1,2 @@
 # Web
-web personal pensado para ser un curiculo web y algunas aplicaciones web sensillas nergaltech.github.io
+web personal pensado para ser un currículo web y algunas aplicaciones web sencillas nergaltech.github.io
